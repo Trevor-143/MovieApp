@@ -7,18 +7,18 @@ body {
     font-family: 'Poppins', sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(#d30000, #000000);
+    background-color: #000000;
 
 }
 header {
-    background-color: #640000;
+    background-color: #252525;
     display: flex;
     flex-direction: row;
     padding: 4px 10px;
     border-radius: 10px;
     flex-wrap: wrap;
     margin: 4px 5px;
-    color: #000000;
+    color: #ffffff;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,9 +40,9 @@ form {
 }
 #search {
     width: 80%;
-    color: antiquewhite;
+    color: rgb(255, 255, 255);
     border: none;
-    background-color: #3d0000;
+    background-color: #000000;
     border-radius: 20px;
     padding: 12px;
 } 
@@ -60,7 +60,7 @@ form input::placeholder {
     font-size: 15px;
     letter-spacing: 1px;
     font-family: inherit;
-    color: #924949;
+    color: #b1b1b1;
 }
 main {
     width: 100%;
@@ -99,7 +99,7 @@ main {
 .movie_info span {
     background-color: #640000;
     padding: 3px 6px;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -113,11 +113,11 @@ main {
     color: #bb0e0e;
 }
 .overview {
-    border-radius: 15px;
-    color: #adadad;
+    border-radius: 5px;
+    color: #e7e7e7;
     padding: 10px;
     position: absolute;
-    background-image: linear-gradient(#9b0000,#570000);
+    background-color: #000000;
     right: 0;
     bottom: 100px;
     left: 0;
